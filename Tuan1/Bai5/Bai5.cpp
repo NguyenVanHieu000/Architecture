@@ -2,11 +2,24 @@
 #include <limits.h>
 using namespace std;
 
+void Bai5a();
 void Bai5b();
 void Bai5c();
 
 int main() {
 	return 0;
+}
+
+void Bai5a(){
+	const int a= 0 ;
+	try{
+		a = 256;
+		x = a;
+		cout<< x << endl;
+
+	}catch(exception e){
+		std::cerr << e.what();
+	}
 }
 void Bai5b() {
 	int maxIntVariable = INT_MAX;
